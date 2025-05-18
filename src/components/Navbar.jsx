@@ -39,8 +39,7 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
         >
           <span className="relative z-10">
-            <snap className="text-glow text-foreground">Horizon</snap>
-            Portfolio
+            <snap className="text-glow text-foreground">Horizon</snap> Portfolio
           </span>
         </a>
 
