@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { Mail, MapPin, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
