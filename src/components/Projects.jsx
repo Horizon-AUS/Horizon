@@ -20,10 +20,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Please Wait",
+    title: "Pursuit",
     description: "Currently under development",
-    image: "/projects/pleasewait3.png",
-    tags: ["Cinematics", "Photography"],
+    image: "/projects/Pursuit.png",
+    tags: ["Cinematics", "Thriller"],
     externalUrl: "#",
   },
 ];

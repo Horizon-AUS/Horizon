@@ -36,11 +36,10 @@ export const Navbar = () => {
       <div className="container flex items-center justify-between">
         <a
           href="#home"
-          className="text-xl font-bold text-primary flex items-center"
+          className="text-xl font-bold text-primary flex items-center text-glow gap-1"
         >
-          <span className="relative z-10">
-            <snap className="text-glow text-foreground">Horizon</snap> Portfolio
-          </span>
+          <img src="/icon.png" className="w-6 h-6" />
+          <span className="relative z-10">Horizon</span>
         </a>
 
         {/* Desktop Nav */}
