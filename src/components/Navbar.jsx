@@ -9,7 +9,7 @@ const navItems = [
   { name: "Contact", href: "/#contact" },
   {
     name: "Shop",
-    href: "https://udnvjj-3s.myshopify.com",
+    href: "horizonau.store",
   },
 ];
 
