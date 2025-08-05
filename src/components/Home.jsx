@@ -18,9 +18,9 @@ export const Home = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            We are a <span className="font-bold text-primary">FILM</span> studio
-            based out of Australia, who also specialise in{" "}
-            <span className="font-bold text-primary">PHOTOGRAPHY</span>.
+            We are a{" "}
+            <span className="font-bold text-primary">Digital media</span> studio
+            based out of Australia
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

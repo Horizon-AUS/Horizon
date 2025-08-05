@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Logo",
     description: "Website under-development",
-    image: "/projects/Horizon_Main.png",
+    image: "/projects/Horizon_Main.jpg",
     tags: ["Design"],
     externalUrl: "#",
   },

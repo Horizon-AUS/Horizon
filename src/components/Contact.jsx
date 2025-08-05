@@ -1,4 +1,4 @@
-import { Mail, MapPin, Send } from "lucide-react";
+import { BriefcaseIcon, Mail, MapPin, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import emailjs from "@emailjs/browser";
@@ -61,6 +61,20 @@ export const Contact = () => {
             <div className="space-y-6 justify-center">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
+                  <BriefcaseIcon className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-medium"> ABN</h4>
+                  <a
+                    href="https://abr.business.gov.au/ABN/View?id=57564563925"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    57 564 563 925
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
@@ -98,10 +112,10 @@ export const Contact = () => {
                 >
                   <FaInstagram size={24} />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.youtube.com/@Horizon-AUS" target="_blank">
                   <FaYoutube size={24} />
                 </a>
-                <a href="https://www.tiktok.com/@horizonbiz52" target="_blank">
+                <a href="https://www.tiktok.com/@horizonau6" target="_blank">
                   <FaTiktok size={24} />
                 </a>
               </div>

@@ -3,3 +3,5 @@ export const NotFound = () => {
     <div>This Page is Unavailable... Did you search for the correct thing?</div>
   );
 };
+
+export default NotFound;

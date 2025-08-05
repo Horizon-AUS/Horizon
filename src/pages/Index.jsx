@@ -13,7 +13,7 @@ export const Index = () => {
       {/* Theme Toggle */}
       <ThemeToggle />
       {/* Background Effects */}
-      <StarBackground />
+      {/*<StarBackground />*/}
       {/* Navbar */}
       <Navbar />
       {/* Main Content */}
@@ -29,3 +29,5 @@ export const Index = () => {
     </div>
   );
 };
+
+export default Index;

@@ -3,13 +3,13 @@ import { cn } from "../lib/utils";
 import { MenuIcon, X } from "lucide-react";
 
 const navItems = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/#home" },
+  { name: "About", href: "/#about" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Contact", href: "/#contact" },
   {
     name: "Shop",
-    href: "https://www.youtube.com/@0bl1vious39",
+    href: "https://udnvjj-3s.myshopify.com",
   },
 ];
 
@@ -38,7 +38,7 @@ export const Navbar = () => {
           href="#home"
           className="text-xl font-bold text-primary flex items-center text-glow gap-1"
         >
-          <img src="/icon.png" className="w-6 h-6" />
+          <img src={"/icon.png"} className="w-10 h-10 invert-(--image)" />
           <span className="relative z-10">Horizon</span>
         </a>
 
