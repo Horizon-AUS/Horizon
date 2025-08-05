@@ -9,7 +9,7 @@ const navItems = [
   { name: "Contact", href: "/#contact" },
   {
     name: "Shop",
-    href: "horizonau.store",
+    href: "https://www.horizonau.store",
   },
 ];
 
